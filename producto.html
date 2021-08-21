@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="nav">
+        <a class="nav__link nav__link--active" href="index.html">Loja</a>
+        <a class="nav__link" href="nosotros.html">Sobre Nós</a>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <div class="contenedor">
+            <h1>React JS</h1>
+
+            <div class="camisa">
+                <img class="camisa__img" src="img/3.jpg" alt="">
+
+                <div class="camisa__contenido">
+                    <p>Aliquam erat volutpat. Nunc tristique justo ut dolor interdum, id placerat sem ullamcorper. Donec pharetra in urna quis efficitur. Donec pharetra in urna quis efficitur.</p>
+
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option selected disabled>-- Selecionar Tamanho --</option>
+                            <option value="">P</option>
+                            <option value="">M</option>
+                            <option value="">G</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="Quantidade" min="1">
+                        <input class="formulario__btn" type="submit" value="Adicionar ao carrinho">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store &copy All rights reserved 2022.</p>
+    </footer>
+</body>
+</html>
